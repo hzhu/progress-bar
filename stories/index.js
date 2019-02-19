@@ -29,23 +29,23 @@ storiesOf("Progress", module)
   })
   .add("stacked", () => {
     const knobs = {
-      "Progress Bar 1": number("Progress Bar 1", 33.33, {
+      "Progress Bar 1": number("Progress Bar 1", 100, {
         range: true,
         min: 0,
-        max: 33.33,
-        step: 0.01
+        max: 100,
+        step: 1
       }),
-      "Progress Bar 2": number("Progress Bar 2", 33.33, {
+      "Progress Bar 2": number("Progress Bar 2", 100, {
         range: true,
         min: 0,
-        max: 33.33,
-        step: 0.01
+        max: 100,
+        step: 1
       }),
       "Progress Bar 3": number("Progress Bar 3", 0, {
         range: true,
         min: 0,
-        max: 33.33,
-        step: 0.01
+        max: 100,
+        step: 1
       })
     };
     return (
