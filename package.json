@@ -4,13 +4,13 @@
     "storybook-build": "build-storybook -c .storybook -o .out"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@storybook/addon-knobs": "^4.1.11",
-    "@storybook/react": "^4.1.11",
-    "babel-loader": "^8.0.5"
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-knobs": "^5.2.3",
+    "@storybook/react": "^5.2.3",
+    "babel-loader": "^8.0.6"
   },
   "dependencies": {
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }
